@@ -11,7 +11,7 @@ At least I will become markdown master.
 
 In order to get started with clojure just follow this instruction:
 
-1. go to [repl.it](https://repl.it/)
+1. go to <a href="https://repl.it/" target="_blank">repl.it</a>
 
 - choose the clojure language
 - copy paste the following code
