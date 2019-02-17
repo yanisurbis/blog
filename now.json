@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "blog",
+  "alias": "yanisurbis.now.sh",
   "builds": [
     {
       "src": "package.json",
