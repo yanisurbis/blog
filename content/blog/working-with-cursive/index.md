@@ -8,6 +8,8 @@ For Yan, who is like me started with clojure several times already and each time
 > A lot of the best programmers and the most productive programmers I know are writing everything in Clojure and swearing by it, and then just producing ridiculously sophisticated things in a very short time. And that programmer productivity matters.
 > [- Adrien Cockroft](https://thenewstack.io/the-new-stack-makers-adrian-cockcroft-on-sun-netflix-clojure-go-docker-and-more/)
 
+If you will have any problems following these steps, please ping me on twitter or watch <a href="https://www.youtube.com/watch?v=ePzC0J1ch-g&list=PLARQ_vgP2L3FJwrJAqyCvyFHTozkLoHzh&index=2&t=1416s" target="_blank">this</a> video.
+
 1. Make sure you have <a href="https://leiningen.org/" target="_blank">leiningen</a> installed
    ```bash
    lein -v
@@ -20,10 +22,10 @@ For Yan, who is like me started with clojure several times already and each time
    lein new app sample-app
    ```
 1. open it with IntelliJ
-1. <a href="https://stackoverflow.com/questions/35091783/cant-delete-parenthesis-in-intellij-cursive">disable</a> structural editing. If you won't disable it then sometimes you won't be able to delete stuff. Stange? I know.
+1. <a href="https://stackoverflow.com/questions/35091783/cant-delete-parenthesis-in-intellij-cursive" target="_blank">disable</a> structural editing. If you won't disable it then sometimes you won't be able to delete stuff. Stange? I know.
 1. right click on `project.clj` -> `Run REPL for sample-app`. ![how to start the repl](./start_the_repl.jpg)
 1. you will see the REPL on the right side, try to execute one or two simple commands there. ![repl basics](./cursive_repl.jpg)
 1. the simplest flow is to type function definition, copy paste it to the REPL, execute and test it there ![repl simple workflow](./working_with_the_repl.jpg)
 1. there are several shortcuts which you can see if you right click on editor and then hover on `REPL` ![repl shortcuts](./repl_options.jpg)
 1. if you don't like default shortcuts you can override them in settings, for example assign to `CTRL + S` sending the whole file to the repl ![cursive keymap](./repl_keymaps.jpg)
-1. don't forget to install <a href="https://plugins.jetbrains.com/plugin/10080-rainbow-brackets">rainbow brackets</a> plugin to have a nice and useful syntax highlighting
+1. don't forget to install <a href="https://plugins.jetbrains.com/plugin/10080-rainbow-brackets" target="_blank">rainbow brackets</a> plugin to have a nice and useful syntax highlighting
